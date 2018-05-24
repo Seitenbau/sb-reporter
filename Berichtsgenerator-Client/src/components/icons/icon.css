@@ -1,0 +1,25 @@
+.icon {
+  width: 100%;
+  height: 100%;
+}
+
+.icon--white {
+  fill: #FFFFFF;
+}
+
+.icon--rotated {
+  transform: rotate(180deg);
+}
+.icon--rotated-quater {
+  transform: rotate(90deg);
+}
+.icon--rotated-three-quater {
+  transform: rotate(270deg);
+}
+.icon.icon--width {
+  width: auto;
+  height: 20px;
+}
+.icon--padded {
+  padding: 5px 10px;
+}

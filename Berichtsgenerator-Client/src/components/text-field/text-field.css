@@ -1,0 +1,30 @@
+.textfield {
+  display: block;
+  font-size: 1.1em;
+}
+.textfield--full-width {
+  width: 100%;
+}
+.textfield--padded {
+  padding: 5px 10px;
+}
+
+.textfield--ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.textfield--italic {
+  font-style: italic;
+}
+.textfield--lables {
+  font-weight: bold;
+}
+.textfield-pagination {
+  margin-right: 10px;
+}
+.textfield--centered {
+  text-align: center;
+}
+.textfield--white {
+  color: #FFFFFF;
+}

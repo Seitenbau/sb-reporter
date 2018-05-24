@@ -1,0 +1,10 @@
+.label {
+  font-size: 1.1em;
+}
+.label--text {
+  display: block;
+  margin: 10px 10px 5px 0;
+}
+.label--text-bold {
+  font-weight: bold;
+}

@@ -1,0 +1,90 @@
+.editieransicht {
+  background-color: #FFFFFF;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 100px;
+  max-width: 80%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+}
+.editieransicht-perspectiv {
+  display: flex;
+  flex-direction: column;
+}
+.editieransicht-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px;
+}
+.editieransicht-title {
+  margin: 0;
+}
+.editieransicht-head {
+  border-bottom: 1px solid #4B515D;
+  padding-bottom: 20px;
+
+}
+.editieransicht-metadata {
+  width: 75%;
+  padding-left: 20px;
+}
+.editieransicht-context {
+  background-color: #8196A1
+}
+.editieransicht-pages {
+  padding: 5px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.editieransicht--flex-item--right-border {
+  border-right: 1px solid #4B515D;
+}
+.editieransicht--flex-item-grow {
+  flex-grow: 2;
+}
+
+.editieransicht-pages-field--space-around {
+  justify-content: space-around;
+}
+.editieransicht-title {
+  padding-left: 5px;
+}
+.editieransicht-link {
+  text-decoration: none;
+  margin-left: 5px;
+  padding: 5px;
+}
+.editieransicht-link:visited {
+  color: #4B515D;
+}
+.editieransicht-link:hover {
+  background-color: #4B515D;
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+.editieransicht-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+.editieransicht-actionsbar {
+  background-color: #aaaaaa;
+  position: fixed;
+  bottom: 0;
+  padding-right: 20px;
+  padding: 5px;
+  width: 100%;
+  left: 0;
+}
+@media (min-width: 1024px) {
+  .editieransicht {
+    max-width: 70%;
+  }
+  .editieransicht-metadata  {
+    width: 50%;
+  }
+}

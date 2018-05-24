@@ -1,0 +1,17 @@
+{
+  "name": "generator-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lochmann",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "html-pdf": "^2.2.0",
+    "mustache": "^2.3.0"
+  }
+}

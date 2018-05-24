@@ -1,0 +1,12 @@
+.tableRow {
+  display: flex;
+  flex-direction: row;
+  background-color: #FFFFFF;
+}
+.tableRow:nth-child(even) {
+  background-color: #E5E1DD;
+}
+
+.tableRow:last-child {
+  border-bottom: 1px solid #000000;
+}

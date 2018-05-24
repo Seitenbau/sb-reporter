@@ -1,0 +1,16 @@
+.tableField {
+  padding: 10px;
+  flex: 1;
+  border-right: 1px solid black;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.tableField:first-child {
+  border-left:  1px solid black;
+}
+.table-link-field {
+  display: flex;
+}
+.textfield-pagination-padded {
+  padding: 10px;
+}

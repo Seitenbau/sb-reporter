@@ -1,0 +1,15 @@
+.dashboard {
+  padding: 100px 0;
+  width: 100%;
+  height: 100%;
+}
+.dashboard-title {
+  padding-left: 20px;
+}
+.dashboard-popup-keys {
+  padding: 5px 10px;
+  background-color: #8196A1;
+}
+.dashboard-popup-keys-list {
+  padding: 10px;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "third-party-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lochmann",
+  "license": "MIT",
+  "dependencies": {
+    "api-mapping-service": "file:../../universal-JSON-mapper",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  }
+}

@@ -1,0 +1,20 @@
+.table {
+  padding: 0 20px;
+}
+.table-header {
+}
+.table-link {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+}
+.table-link:visited {
+  color: #000000;
+}
+.table-link:hover,
+.table-link:focus,
+.table-link:active {
+  color: #FFFFFF;
+}

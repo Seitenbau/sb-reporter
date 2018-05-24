@@ -1,0 +1,17 @@
+{
+  "name": "berichtsgenerator",
+  "version": "1.0.0",
+  "description": "A Portal to store data and create PDF´s",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=dev nodemon App.js",
+    "start": "NODE_ENV=prod node App.js",
+    "build": "node ./buildScripts/deploy"
+  },
+  "author": "lochmann",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^5.0.1"
+  }
+}

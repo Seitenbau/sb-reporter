@@ -1,0 +1,31 @@
+.dropdown-menu {
+  color: #FFFFFF;
+  position: fixed;
+  right: 20px;
+}
+.dropdown-menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #FFFFFF;
+
+}
+.dropdown-button {
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #4B515D;
+}
+
+.dropdown-menu-item {
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+.dropdown-menu-open {
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px 2px 1px black;
+}
+.dropdown-menu-close .dropdown-menu-list {
+  display: none;
+}

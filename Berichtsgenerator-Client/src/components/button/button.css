@@ -1,0 +1,125 @@
+.button {
+  text-align: left;
+  padding: 10px;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px #999999;
+  box-sizing: border-box;
+  margin-right: 10px;
+  border: none;
+  font-size: 1.1em;
+}
+.button--full-width {
+  width: 100%;
+}
+.button--box-shadow {
+  box-shadow: 1px 1px 2px 1px #999999;
+}
+
+.button:disabled,
+.button:disabled:hover {
+  background-color: #aaa;
+  cursor: default;
+}
+.button:disabled:hover {
+  color: #000000;
+}
+.button--clear {
+  border: none;
+  background-color: transparent;
+  color: inherit;
+  font-size: 1.1em;
+  text-decoration: none;
+  padding: 0;
+}
+.button:hover,
+.button:focus {
+  background-color: #FFFFFF;
+  color: #4B515D;
+  outline: none;
+}
+.button-hover-negativ:hover,
+.button-focus-negativ:focus {
+  background-color: #4B515D;
+  color: #FFFFFF;
+}
+
+.button-text-white {
+  color: #FFFFFF;
+}
+.button-text-center {
+  text-align: center;
+}
+.button-text-right {
+  text-align: right;
+}
+.button-pagination {
+  width: inherit;
+}
+.button-pagination:hover {
+  background-color: #4B515D;
+  color: #FFFFFF;
+}
+
+.button-editieransicht,
+.button-detailansicht {
+  padding: 5px 10px;
+  border: 1px solid #4B515D;
+}
+.button-editieransicht:hover,
+.button-detailansicht:hover {
+  border-color: #FFFFFF;
+}
+.button--default {
+  background-color: #3E4551;
+  border-color: #3E4551;
+  color: #FFFFFF;
+}
+.button:hover,
+.button:focus {
+  color: #FFFFFF;
+  background-color: #4B515D;
+  outline: none;
+}
+.button--red {
+  background-color: #ff4444;
+  border-color: #ff4444;
+  color: #FFFFFF;
+}
+.button--green {
+  background-color: #00C851;
+  border-color: #00C851;
+  color: #FFFFFF;
+}
+.button--blue {
+  background-color: #4285F4;
+  border-color: #4285F4;
+}
+.button--fly {
+  position: fixed;
+  top: 100px;
+  left: 50px;
+}
+.button--fly-right {
+  position: fixed;
+  top: 100px;
+  right: 50px;
+}
+.button-icon {
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+}
+.button-toggle {
+  margin: 0;
+}
+.button-toggle-active,
+.button-toggle-active:hover,
+.button-toggle-active:active,
+.button-toggle-active:focus {
+  outline: none;
+  box-shadow: inset 0px 0 2px 2px #00695c;
+  background-color: #00C851;
+}
+.button-toggle-deactive:hover {
+  background-color: #00C851;
+}

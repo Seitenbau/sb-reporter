@@ -1,0 +1,50 @@
+.select {
+  position: relative;
+  box-shadow: 1px 1px 2px 1px black;
+}
+.select-values {
+  margin: 0;
+  box-shadow: 1px 1px 2px 1px black;
+  padding: 10px;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  left: 0;
+  background-color: #FFFFFF;
+  z-index: 3;
+}
+.select-value {
+  padding-left: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+.select-value:hover {
+  background-color: #3E4551;
+  color: #FFFFFF;
+}
+.select-choice:not(:last-child) {
+  border-bottom: 1px solid #000000;
+}
+.select-choice {
+  display: flex;
+}
+.select-value-input {
+  position: absolute;
+  opacity: 0.01;
+}
+.select-value-input:focus + .select-value {
+  background-color: #bdbdbd
+}
+.select-values--open  {
+  display: flex;
+}
+.select-button {
+  display: flex;
+  justify-content: space-between;
+}
+.select-button:hover,
+.select-button:focus,
+.select-button:active {
+  background-color: #bdbdbd;
+}
