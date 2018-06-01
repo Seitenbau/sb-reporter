@@ -1,4 +1,4 @@
-const berichtsgenerator = require('./Berichtsgenerator-Server');
+const berichtsgenerator = require('./Berichtsgenerator-Server').factory;
 const generator = require('./Generator-Service');
 const thirdparty = require('./Third-Api-Service');
 const config = Object.assign({}, require('./config'), {ENV: process.env.NODE_ENV});

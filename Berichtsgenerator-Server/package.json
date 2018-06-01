@@ -23,7 +23,10 @@
   "devDependencies": {
     "chai": "^3.2.0",
     "chai-http": "^4.0.0",
+    "copy-webpack-plugin": "^4.5.1",
     "mongo-mock": "^3.1.0",
-    "sinon": "^5.0.7"
+    "sinon": "^5.0.7",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^2.1.4"
   }
 }

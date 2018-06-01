@@ -1,5 +1,5 @@
 const express = require('express');
-const Mapper = require('api-mapping-service');
+const Mapper = require('./tools/Mapper');
 
 const bodyParser = require('body-parser');
 const Client = require('./Client');

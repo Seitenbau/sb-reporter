@@ -7,7 +7,7 @@ module.exports = {
     database: 'berichtsgenerator',
   },
   'berichtsgenerator-server': {
-    port: 3000,
+    port: 3006,
     url: 'http://127.0.0.1'
   },
   'third-api-service': {

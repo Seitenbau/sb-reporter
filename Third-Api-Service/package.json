@@ -12,6 +12,10 @@
     "api-mapping-service": "file:../../universal-JSON-mapper",
     "axios": "^0.18.0",
     "body-parser": "^1.18.2",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "immutable": "^3.8.2",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^2.1.4",
+    "copy-webpack-plugin": "^4.5.1"
   }
 }
