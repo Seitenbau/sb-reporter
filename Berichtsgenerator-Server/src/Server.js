@@ -52,7 +52,7 @@ class Server {
     this.app.get('/', (req, res) => {
       res.set({
         'Content-Type': 'text/html'
-      }).sendFile(path.resolve(__dirname, '../../Berichtsgenerator-Client/build/index.html'))
+      }).sendFile(path.resolve(__dirname, 'index.html'))
     });
 
     this.app.post('/login', (req, res) => {

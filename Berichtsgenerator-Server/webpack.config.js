@@ -20,7 +20,18 @@ module.exports = {
     path: path.join(__dirname, build),
     filename: 'berichtsgenerator-server.js',
   },
-  externals: nodeModules,
+  resolve: {
+    extensions: ['.js']
+  },
+  module: {
+    rules: [
+      {
+        use: 'babel-loader',
+        test: /\.js$/,
+        exclude: /node_modules/
+      }
+    ]
+  },
   plugins: [
     new webpack.IgnorePlugin(/^\.\/config\.js$/),
     new CopyWebpackPlugin(['config.js'], {from: '.', to: path.join(__dirname, build)})

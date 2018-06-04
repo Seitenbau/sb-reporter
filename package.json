@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "NODE_ENV=dev nodemon App.js",
-    "start": "NODE_ENV=prod node App.js"
+    "start": "NODE_ENV=prod node App.js",
+    "build": "NODE_ENV=prod node ./scripts/build.js"
   },
   "author": "lochmann",
   "license": "MIT",
