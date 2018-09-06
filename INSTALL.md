@@ -3,7 +3,7 @@
 * Node.JS ^8.2.1
 * npm ^5.4.1
 * yarn ^1.3.2
-* MongoDB
+* MongoDB-server (https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/) 
 
 # Herunterladen
 
